@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/self_portrait.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Impact', sans-serif; /* Change this to any action movie font you prefer */
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
