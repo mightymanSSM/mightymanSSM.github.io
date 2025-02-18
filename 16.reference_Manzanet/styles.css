@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/spacedog.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-box {
+    color: white;
+    font-size: 24px;
+    font-family: 'Impact', 'Haettenschweiler', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
