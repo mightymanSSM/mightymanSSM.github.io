@@ -1,0 +1,40 @@
+/* Fullscreen layout and background */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black;
+}
+
+/* Container for videos */
+#videoContainer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Style for both video elements */
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text box overlay styling */
+#textBox {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 1em 2em;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 10px;
+  user-select: none;
+}
